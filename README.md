@@ -21,14 +21,21 @@ download the data from
 githup
 '''
 
+'''bash
 git init
+
+'''bash
 dvc init
+
+'''bash
 dvc add data_given/winequality.csv
 
 git add . 
 
 git commit -m "first data"
 
-second commit
-
-
+one liner update for readme
+git add . && git commit -m "update Readme.md"
+git remote add origin https://github.com/Bhushan0130/simple_dvc.git
+git branch -M main
+git push origin main
