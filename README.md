@@ -40,4 +40,27 @@ git remote add origin https://github.com/Bhushan0130/simple_dvc.git
 git branch -M main
 git push origin main
 
-new
+
+tox command -
+'''bash
+
+tox
+''''
+for rebuilding
+'''bash
+tox -r
+'''
+
+pytest command
+'''bash
+
+pytest-v
+'''
+
+setup commands -
+pip install -e .
+
+
+'''Way to create libraries to share with you friends
+python setup.py sdist bdist_wheel
+'''
