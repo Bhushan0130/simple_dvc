@@ -14,3 +14,6 @@ def test_generic():
         if a not in range (10, 20):
             raise NotInRange
         
+## here we have a naming convention while creating function
+def test_something():
+    pass
