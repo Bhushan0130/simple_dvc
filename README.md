@@ -53,7 +53,6 @@ tox -r
 
 pytest command
 '''bash
-
 pytest-v
 '''
 
@@ -61,6 +60,6 @@ setup commands -
 pip install -e .
 
 
-'''Way to create libraries to share with you friends
+'''Way to create own building packages
 python setup.py sdist bdist_wheel
 '''
